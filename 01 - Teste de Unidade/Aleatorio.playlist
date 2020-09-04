@@ -1,0 +1,27 @@
+<Playlist Version="1.0">
+  <Add Test="Demo.Tests.AssertNullBoolTests.Funcionario_Apelido_NaoDeveTerApelido" />
+  <Add Test="Demo.Tests.AssertNullBoolTests.Funcionario_Nome_NaoDeveSerNuloOuVazio" />
+  <Add Test="Demo.Tests.AssertNumbersTests.Calculadora_Somar_DeveSerIgual" />
+  <Add Test="Demo.Tests.AssertNumbersTests.Calculadora_Somar_NaoDeveSerIgual" />
+  <Add Test="Demo.Tests.AssertStringsTests.StringTools_UnirNomes_DeveAcabarCom" />
+  <Add Test="Demo.Tests.AssertStringsTests.StringTools_UnirNomes_DeveComecarCom" />
+  <Add Test="Demo.Tests.AssertStringsTests.StringTools_UnirNomes_DeveConterTrecho" />
+  <Add Test="Demo.Tests.AssertStringsTests.StringTools_UnirNomes_DeveIgnorarCase" />
+  <Add Test="Demo.Tests.AssertStringsTests.StringTools_UnirNomes_RetornarNomeCompleto" />
+  <Add Test="Demo.Tests.AssertStringsTests.StringTools_UnirNomes_ValidarExpressaoRegular" />
+  <Add Test="Demo.Tests.AssertingCollectionsTests.Funcionario_Habilidades_JuniorDevePossuirHabilidadesBasica" />
+  <Add Test="Demo.Tests.AssertingCollectionsTests.Funcionario_Habilidades_JuniorNaoDevePossuirHabilidadeAvancada" />
+  <Add Test="Demo.Tests.AssertingCollectionsTests.Funcionario_Habilidades_NaoDevePossuirHabilidadesVazias" />
+  <Add Test="Demo.Tests.AssertingCollectionsTests.Funcionario_Habilidades_SeniorDevePossuirTodasHabilidades" />
+  <Add Test="Demo.Tests.AssertingExceptionsTests.Calculadora_Dividir_DeveRetornarErroDivisaoPorZero" />
+  <Add Test="Demo.Tests.AssertingExceptionsTests.Funcionario_Salario_DeveRetornarErroSalarioInferiorPermitido" />
+  <Add Test="Demo.Tests.AssertingObjectTypesTests.Funcionario_Criar_DeveRetornarTipoDerivadoPessoa" />
+  <Add Test="Demo.Tests.AssertingObjectTypesTests.Funcionario_Criar_DeveRetornarTipoFuncionario" />
+  <Add Test="Demo.Tests.AssertingRangesTests.Funcionario_Salario_FaixasSalariaisDevemRespeitarNivelProfissional" />
+  <Add Test="Demo.Tests.CalculadoraTests.Calculadora_Somar_RetornarValorSoma" />
+  <Add Test="Demo.Tests.CalculadoraTests.Calculadora_Somar_RetornarValoresSomaCorretos" />
+  <Add Test="Features.Tests.ClienteServiceTests.ClienteService_Adicionar_DeveExecutarComSucesso" />
+  <Add Test="Features.Tests.ClienteServiceTests.ClienteService_Adicionar_DeveFalharDevidoClienteInvalido" />
+  <Add Test="Features.Tests.ClienteServiceTests.ClienteService_Obter_DeveRetornarApenasClientesAtivos" />
+  <Add Test="Features.Tests.ClienteFluentAssertionsTests.Cliente_NovoCliente_DeveEstarValido" />
+</Playlist>
